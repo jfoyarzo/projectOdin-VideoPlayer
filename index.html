@@ -11,10 +11,25 @@
 </head>
 <body>
     <header>
-
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" id="brand">VideoPlayer</a>
+              <form class="d-flex" role="search" id="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
     </header>
-    
+
     <main>
+        <div class="container" id="mainSection">
+            <div class="row">
+                <div class="col-8 mt-4">
+                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/lJIrF4YjHfQ" title="Insertar vídeos y listas de reproducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
 
     </main>
 
